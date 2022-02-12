@@ -1,14 +1,14 @@
-/* will be applied to the entire page
+/* box-sizing, padding and margin will be applied to the entire page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/*adding background color to the body*/
+/*background coloring*/
 body {
     background-color: #d9dcd6;
 }
-/*styling the header */
+/* styling header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,18 +40,19 @@ header div ul {
 header div ul li {
     display: inline-block;
     margin-left: 25px;
-/*end header styling*/
 }
-/* text color to the anchor */
+/* end styling header*/
+
+/* text color for anchor*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/* font size to paragraph*/
+/* paragraph font size*/
 p {
     font-size: 16px;
 }
-/* styling the hero section*/
+/* styling hero section */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,7 +61,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* end hero section styling*/
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -76,7 +77,7 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
-/* style side colum*/
+/* styling side column*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -147,11 +148,13 @@ main {
 
 .service img {
     max-height: 200px;
+}
+
 .service h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* end side column styling*/
+/*end styling side column*/
 
 /*styling footer*/
 footer {
